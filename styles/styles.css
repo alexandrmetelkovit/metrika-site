@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     height: 500px;
 
-    background-image: url('/resources/chair.png');
+    background-image: url('../resources/chair.png');
 }
 
 .image-text {
