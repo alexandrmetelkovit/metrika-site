@@ -12,6 +12,7 @@ body {
 }
 
 .header-title {
+    max-width: 956px;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 60px;
@@ -37,6 +38,10 @@ body {
     line-height: 27px;
     letter-spacing: -0.03em;
     color: #ffffff;
+}
+
+.about-us {
+    margin-top: 150px;
 }
 
 h1 {
@@ -119,14 +124,15 @@ a.link-btn {
 
 a.projects-link {
     display: block;
-    width: 1150px;
-    padding: 56px;
+    width: 100%;
+
+    padding: 56px 0;
 
     text-align: center;
     border: 1px solid #AD1818;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: 400;
+    letter-spacing: -0.03em;
     font-size: 30px;
     line-height: 41px;
     color: #AD1818;
@@ -142,7 +148,7 @@ a.projects-link {
     width: 1400px;
     height: 1844px;
     box-sizing: border-box;
-    padding: 151px 0 0 125px;
+    padding: 125px 0 0 125px;
     background-color: #121212;
     color: #fff;
 }
