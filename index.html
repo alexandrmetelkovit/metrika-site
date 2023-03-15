@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Сайт</title>
+    <title>Метрика</title>
 
     <link rel="stylesheet" href="styles/reset.css">
 
@@ -16,72 +16,108 @@
 </head>
 
 <body>
-
-    <div class="container-header">
-        <h1 class="header-title">Современные и стильные интерьеры для комфортной жизни</h1>
+    <div class="container">
+        <header>
+            <div class="nav-section">
+                <div class="nav-container">
+                    <a class="logo-link" href="#">
+                        <img class="logo" src="/resources/logo_metrika.png" alt="логотип компании метрика">
+                    </a>
+                    <div class="nav">
+                        <a href="#about-us" class="nav-link">О НАС</a>
+                        <a href="#projects" class="nav-link">ПРОЕКТЫ </a>
+                        <a href="#services" class="nav-link">УСЛУГИ</a>
+                        <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="about-us">
+            <h1 class="title">
+                Современные и стильные <br> интерьеры для комфортной жизни
+            </h1>
             <div class="interior">
-                <p class="image-text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и
+                <p class="image-text">
+                    Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и
                     реализацией дизайн-проектов</p>
             </div>
-
-        <h2 class="about-us">О НАС</h2>
-        <p class="description">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К
-            нам обращаются за
-            уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера,
-            вплоть до каждой детали — нацелены на результат.</p>
-        <a class="link-btn" href="#">Посмотреть услуги</a>
+        </section>
+        <section>
+            <h2>О НАС</h2>
+            <p class="description">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
+                интерьеров. К нам
+                обращаются за уютом, индивидуальными <br> решениями и практичностью. Находим <br> конструктивные
+                решения
+                для
+                каждого интерьера, вплоть до каждой детали — нацелены на результат.
+            </p>
+            <a href="/" class="btn">Посмотреть услуги</a>
+        </section>
+        <section class="section-projects">
+            <h2 id="projects">ПРОЕКТЫ</h2>
+            <ul class="projects">
+                <li class="project">
+                    <img class="project__image" src="/resources/brown_bed.png" alt="комната с видом на город">
+                    <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                    <a class="project__link" href="">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <img class="project__image" src="/resources/fresh_room.png" alt="красочная команта">
+                    <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                    <a class="project__link" href="">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <img class="project__image" src="/resources/table_room.png" alt="стол в гостинной">
+                    <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                    <a class="project__link" href="">Подробнее →</a>
+                </li>
+                <a class="projectbtn" href="#">Смотреть все проекты</a>
+            </ul>
+        </section>
     </div>
-
-
-    <div class="projects">
-        <h2 class="projects-header">ПРОЕКТЫ</h2>
-        <div class="item-interior1">
-            <img class="item-img1" src="resources/interior1.png">
-            <div class="item__text-wrapper">
-                <p class="item-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                <a class="item-interior1-link" href="#">Подробнее →</a>
-            </div>
-        </div>
-        <div class="item-interior2">
-            <img class="item-img2" src="resources/interior2.png">
-            <div class="item__text-wrapper">
-                <p class="item-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                <a class="item-interior1-link" href="#">Подробнее →</a>
-            </div>
-        </div>
-        <div class="item-interior3">
-            <img class="item-img3" src="resources/interior3.png">
-            <div class="item__text-wrapper">
-                <p class="item-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
-                <a class="item-interior1-link" href="#">Подробнее →</a>
-            </div>
-        </div>
-        <div>
-            <a class="projects-link" href="#">Смотреть все проекты</a>
-        </div>
+    <div class="section-black">
+        <section class="section-services">
+            <h2 id="services">УСЛУГИ</h2>
+            <ul class="services">
+                <li class="service">
+                    <img class="service__image" src="/resources/pencil.png" alt="карандаш на листке">
+                    <h3 class="service__title">Планировочное решение — от 2500₽/м²</h3>
+                </li>
+                <li class="service">
+                    <img class="service__image" src="/resources/color.png" alt="цветной справочник pantone">
+                    <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
+                </li>
+                <li class="service">
+                    <img class="service__image" src="/resources/ruler.png" alt="линейка на столе">
+                    <h3 class="service__title">Авторский надзор — от 30 000₽ в месяц</h3>
+                </li>
+                <li class="service">
+                    <img class="service__image" src="/resources/stock.png" alt="складское помещение">
+                    <h3 class="service__title">Комплектация — 5% от стоимости спецификации</h3>
+                </li>
+            </ul>
+        </section>
     </div>
-
-    <div class="services">
-        <h2 class="services-header">УСЛУГИ</h2>
-        <div class="services-cards">
-            <div class="services-card">
-                <img class="services-img" src="resources/Rectangle1.png" alt="">
-                <p class="services-text">Планировочное решение — от 2500₽/м²</p>
-            </div>
-            <div class="services-card">
-                <img class="services-img" src="resources/Rectangle2.png" alt="">
-                <p class="services-text">Дизайн-проект — от 3000₽/м²</p>
-            </div>
-            <div class="services-card">
-                <img class="services-img" src="resources/Rectangle3.png" alt="">
-                <p class="services-text">Авторский надзор — от 30 000₽ в месяц</p>
-            </div>
-            <div class="services-card">
-                <img class="services-img" src="resources/Rectangle4.png" alt="">
-                <p class="services-text">Комплектация — 5% от стоимости спецификации</p>
-            </div>
+    <section class="full-screen-picture">
+        <div class="project-img">
+            <p class="project-text">Проект Двухкомнатной <br> квартиры в ЖК Лесной Пейзаж</p>
         </div>
-    </div>
+    </section>
+    <section class="section-contacts">
+        <h2 id="contacts" class="contacts-all">КОНТАКТЫ</h2>
+        <p class="margin-tel"><a class="contacts__tel" href="tel:+7 935  895-45-35">+7 935 895-45-35</a></p>
+        <p><a class="contacts__email" href="mailto:hello@mail.com">hello@mail.com</a></p>
+    </section>
+    </main>
+    <footer class="section-black section-footer">
+        <nav class="footernav">
+            <a class="footernav__link" href="#about-us">О НАС</a>
+            <a class="footernav__link" href="#projects">ПРОЕКТЫ</a>
+            <a class="footernav__link" href="#services">УСЛУГИ</a>
+            <a class="footernav__link" href="#contacts">КОНТАКТЫ</a>
+        </nav>
+        <p class="footer-title">студия дизайна интерьера Метрика — 2023</p>
+    </footer>
 </body>
 
 </html>
