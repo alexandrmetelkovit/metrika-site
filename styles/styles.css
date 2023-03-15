@@ -60,7 +60,7 @@ section {
     margin-bottom: 150px;
     width: 1150px;
     height: 500px;
-    background-image: url('./resources/chair.png');
+    background-image: url('../resources/chair.png');
     background-repeat: no-repeat;
 }
 
@@ -190,7 +190,7 @@ section {
 .project-img {
     position: relative;
     height: 717px;
-    background-image: url('./resources/big_bed.png');
+    background-image: url('../resources/big_bed.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -214,7 +214,7 @@ section {
     margin-left: -5px;
     width: 24px;
     height: 24px;
-    background-image: url('./resources/arrow.png');
+    background-image: url('../resources/arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
