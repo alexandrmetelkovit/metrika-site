@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -10,11 +14,14 @@ h2,
 h3,
 a,
 p,
-div{
+div,
+ul,
+li {
     letter-spacing: -0.03em;
 }
 
 .nav-section {
+    margin: auto;
     width: 1400px;
     padding: 33px 125px 0 125px;
 }
@@ -22,16 +29,14 @@ div{
 .nav-container {
     margin: 0 auto;
     width: 1150px;
-
 }
 
 .logo {
-display: inline-block;
+    display: inline-block;
 }
 
 .nav {
     float: right;
-
 }
 
 .nav-link {
@@ -40,7 +45,7 @@ display: inline-block;
     font-size: 18px;
     line-height: 25px;
     text-decoration: none;
-color: #121212;
+    color: #121212;
 }
 
 .nav-link:last-child {
@@ -49,7 +54,7 @@ color: #121212;
 
 .nav-link:hover {
     opacity: 0.5;
-    border-bottom: 2px solid #121212;
+    border-bottom: 1px solid #000000;
 }
 
 section {
@@ -85,16 +90,20 @@ section {
     left: 40px;
     bottom: 40px;
     width: 430px;
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
 }
 
+.projects-title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+
 .description {
     margin-top: 40px;
     margin-bottom: 30px;
-    font-weight: 400;
     font-size: 45px;
     line-height: 61px;
     color: #121212;
@@ -112,15 +121,15 @@ section {
     background-color: #AD1818;
 }
 
-.section-projects,
-.section-services,
-.section-contacts {
+.projects,
+.services,
+.contacts {
     margin: auto;
     padding: 150px 125px 150px 125px;
     width: 1400px;
 }
 
-.projects {
+.projects-list {
     margin-top: 30px;
 }
 
@@ -138,13 +147,11 @@ section {
 .project__title {
     margin-bottom: 14px;
     font-size: 30px;
-    font-weight: 400;
     line-height: 41px;
     color: #121212;
 }
 
 .project__link {
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     text-decoration: none;
@@ -152,8 +159,9 @@ section {
 }
 
 .projectbtn {
+    font-family: 'Manrope', sans-serif;
     display: block;
-    width: 100%;
+    width: 1150px;
     padding: 56px 0;
     font-weight: 400;
     font-size: 30px;
@@ -162,7 +170,11 @@ section {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
+    letter-spacing: -0.03em;
     color: #AD1818;
+    background: #FFFFFF;
+    cursor: pointer;
+
 }
 
 .projectbtn:hover {
@@ -173,9 +185,23 @@ section {
 .section-black {
     background-color: #121212;
     color: #FFFFFF;
+    width: 100%;
 }
 
 .services {
+    margin: auto;
+    padding: 150px 125px 150px 125px;
+    width: 1400px;
+}
+
+.services-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.services-list {
     margin-top: 34px;
 }
 
@@ -225,7 +251,13 @@ section {
     color: #FFFFFF;
 }
 
-.contacts-all:before {
+.contacts-title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+
+.contacts-title:before {
     content: '';
     display: block;
     margin-bottom: 12px;
@@ -235,6 +267,12 @@ section {
     background-image: url('../resources/arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.contacts {
+    margin: auto;
+    padding: 150px 125px 150px 125px;
+    width: 1400px;
 }
 
 .contacts__tel {
@@ -288,7 +326,6 @@ footer {
 
 .footernav__link:hover {
     opacity: 0.5;
-    border-bottom: 2px solid #7d7777;
 }
 
 .footer-title {
