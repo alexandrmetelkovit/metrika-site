@@ -19,32 +19,31 @@
 
 <body>
     <header>
-        <div class="nav-section">
-            <div class="nav-container">
-                <a class="logo-link" href="#">
-                    <img class="logo" src="./resources/logo_metrika.png" alt="логотип компании метрика">
-                </a>
-                <nav class="nav">
-                    <a href="#about-us" class="nav-link">О НАС</a>
-                    <a href="#projects" class="nav-link">ПРОЕКТЫ </a>
-                    <a href="#services" class="nav-link">УСЛУГИ</a>
-                    <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
-                </nav>
-            </div>
+        <div class="nav-container">
+            <a class="logo-link" href="#">
+                <img class="logo" src="./resources/logo_metrika.png" alt="логотип компании метрика">
+            </a>
+            <nav class="nav">
+                <a href="#about-us" class="nav-link">О НАС</a>
+                <a href="#projects" class="nav-link">ПРОЕКТЫ </a>
+                <a href="#services" class="nav-link">УСЛУГИ</a>
+                <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+            </nav>
         </div>
     </header>
-    <div class="container">
-        <section>
+    <main>
+        <section class="we-team">
             <h1 class="title">
                 Современные и стильные <br> интерьеры для комфортной жизни
             </h1>
             <div class="interior">
+                <img src="resources/chair.png" alt="кресло для отдыха">
                 <p class="image-text">
                     Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и
                     реализацией дизайн-проектов</p>
             </div>
         </section>
-        <section>
+        <section class="about-us">
             <h2 id="about-us" class="about-us-title">О НАС</h2>
             <p class="description">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
                 интерьеров. К нам
@@ -73,43 +72,43 @@
                     <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                     <a class="project__link" href="">Подробнее →</a>
                 </li>
-                <button class="projectbtn" href="/">Смотреть все проекты</button>
+                <a class="projectbtn" href="/">Смотреть все проекты</a>
             </ul>
         </section>
-    </div>
-    <div class="section-black">
-        <section class="services">
-            <h2 id="services" class="services-title">УСЛУГИ</h2>
-            <ul class="services-list">
-                <li class="service">
-                    <img class="service__image" src="resources/pencil.png" alt="карандаш на листке">
-                    <h3 class="service__title">Планировочное решение — от 2500₽/м²</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/color.png" alt="цветной справочник pantone">
-                    <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/ruler.png" alt="линейка на столе">
-                    <h3 class="service__title">Авторский надзор — от 30 000₽ в месяц</h3>
-                </li>
-                <li class="service">
-                    <img class="service__image" src="resources/stock.png" alt="складское помещение">
-                    <h3 class="service__title">Комплектация — 5% от стоимости спецификации</h3>
-                </li>
-            </ul>
+        <section class="section-black">
+            <div class="services">
+                <h2 id="services" class="services-title">УСЛУГИ</h2>
+                <ul class="services-list">
+                    <li class="service">
+                        <img class="service__image" src="resources/pencil.png" alt="карандаш на листке">
+                        <h3 class="service__title">Планировочное решение — от 2500₽/м²</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/color.png" alt="цветной справочник pantone">
+                        <h3 class="service__title">Дизайн-проект — от 3000₽/м²</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/ruler.png" alt="линейка на столе">
+                        <h3 class="service__title">Авторский надзор — от 30 000₽ в месяц</h3>
+                    </li>
+                    <li class="service">
+                        <img class="service__image" src="resources/stock.png" alt="складское помещение">
+                        <h3 class="service__title">Комплектация — 5% от стоимости спецификации</h3>
+                    </li>
+                </ul>
+            </div>
         </section>
-    </div>
-    <section class="full-screen-picture">
-        <div class="project-img">
-            <p class="project-text">Проект Двухкомнатной <br> квартиры в ЖК Лесной Пейзаж</p>
-        </div>
-    </section>
-    <section class="contacts">
-        <h2 id="contacts" class="contacts-title">КОНТАКТЫ</h2>
-        <p class="margin-tel"><a class="contacts__tel" href="tel:+7 935  895-45-35">+7 935 895-45-35</a></p>
-        <p><a class="contacts__email" href="mailto:hello@mail.com">hello@mail.com</a></p>
-    </section>
+        <section class="full-screen-picture">
+            <div class="project-img">
+                <p class="project-text">Проект Двухкомнатной <br> квартиры в ЖК Лесной Пейзаж</p>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2 id="contacts" class="contacts-title">КОНТАКТЫ</h2>
+            <a class="contacts__tel" href="tel:+7 935  895-45-35">+7 935 895-45-35</a>
+            <a class="contacts__email" href="mailto:hello@mail.com">hello@mail.com</a>
+        </section>
+    </main>
     <footer class="section-black section-footer">
         <nav class="footernav">
             <a class="footernav__link" href="#about-us">О НАС</a>
