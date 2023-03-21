@@ -211,14 +211,8 @@ h2 {
     color: #FFFFFF;
 }
 
-.full-screen-picture {
+.fullscreen {
     min-width: 100%;
-    padding: 0;
-}
-
-.project-img {
-    margin: auto;
-    position: relative;
     height: 717px;
     background-image: url('../resources/big_bed.png');
     background-size: cover;
@@ -226,13 +220,20 @@ h2 {
     background-position: 50% 50%;
 }
 
-.project-img p {
+.fullscreen-center {
+    margin: auto;
+    width: 1151px;
+    position: relative;
+}
+
+.fullscreen-center p {
     position: absolute;
-    left: 126px;
-    bottom: 60px;
+    top: 575px;
+    height: 82px;
+    width: 443px;
     font-size: 30px;
     line-height: 41px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .contacts h2:before {
