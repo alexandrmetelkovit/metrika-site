@@ -21,7 +21,7 @@ li {
     letter-spacing: -0.03em;
 }
 
-.nav-container {
+/* .nav-container {
     margin: auto;
     width: 1400px;
     padding: 33px 125px 0 125px;
@@ -51,53 +51,61 @@ li {
 .nav-link:hover {
     opacity: 0.5;
     border-bottom: 1px solid #000000;
-}
+} */
 
-section {
+/* section {
     margin: 0 auto;
     width: 1400px;
     padding-left: 125px;
     padding-bottom: 150px;
     background-color: #FFFFFF;
-}
+} */
 
-section:nth-last-child(3) {
+/* section:nth-last-child(3) {
     padding-bottom: 0;
-}
+} */
 
-.title {
+
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  
+  .title {
     margin-top: 70px;
     width: 956px;
     font-size: 60px;
     line-height: 60px;
     color: #121212;
-}
-
-.interior {
+  }
+  
+  .interior {
     position: relative;
     margin-top: 30px;
+    margin-bottom: 150px;
     width: 1150px;
     height: 500px;
     background-repeat: no-repeat;
-}
-
-.we-team p {
+  }
+  
+  .we-team p {
     position: absolute;
     left: 40px;
     bottom: 40px;
     width: 430px;
     font-size: 20px;
     line-height: 27px;
-    color: #FFFFFF;
-}
-
-h2 {
+    color: #ffffff;
+  }
+  
+  h2 {
     font-size: 18px;
     line-height: 25px;
     color: #121212;
-}
-
-.about-us p {
+  }
+  
+  .about-us p {
     margin-top: 31px;
     margin-bottom: 29px;
     margin-left: 2px;
@@ -105,9 +113,10 @@ h2 {
     font-size: 45px;
     line-height: 61px;
     color: #121212;
-}
-
-.view-more {
+  }
+  
+  .view-more {
+    font-family: "Manrope", sans-serif;
     display: inline-block;
     padding: 20px 40px;
     font-size: 20px;
@@ -115,11 +124,114 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    color: #FFFFFF;
-    background-color: #AD1818;
-}
-
-.projects-list {
+    color: #ffffff;
+    background-color: #ad1818;
+  }
+  
+  @media (max-width: 1199px) {
+    .container {
+      width: 100%;
+      padding-left: 17px;
+      padding-right: 17px;
+    }
+  
+    .title {
+      margin-top: 73px;
+      max-width: 802px;
+      font-size: 50px;
+      line-height: 60px;
+      color: #121212;
+    }
+  
+    .interior {
+      position: relative;
+      margin-top: 30px;
+      margin-bottom: 120px;
+      max-width: 928px;
+      height: 400px;
+      background-repeat: no-repeat;
+    }
+  
+    .we-team p {
+      position: absolute;
+      left: 40px;
+      bottom: 30px;
+      width: 430px;
+      font-size: 20px;
+      line-height: 27px;
+      color: #ffffff;
+    }
+  
+    .about-us p {
+      margin-top: 31px;
+      margin-bottom: 29px;
+      margin-left: 2px;
+      max-width: 690px;
+      font-size: 35px;
+      line-height: 48px;
+      color: #121212;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding-left: 13px;
+      padding-right: 13px;
+    }
+  
+    .title {
+      margin-top: 61px;
+      max-width: 348px;
+      font-size: 30px;
+      line-height: 32px;
+      color: #121212;
+    }
+  
+    .interior {
+      position: relative;
+      margin-top: 25px;
+      width: 350px;
+      height: 304px;
+      margin-bottom: 80px;
+      background-repeat: no-repeat;
+    }
+  
+    .we-team p {
+      position: absolute;
+      left: 15px;
+      bottom: 15px;
+      width: 312px;
+      font-size: 16px;
+      line-height: 22px;
+      color: #ffffff;
+    }
+  
+  
+    .about-us p {
+      margin-top: 20 px;
+      margin-bottom: 29px;
+      margin-left: 2px;
+      max-width: 346px;
+      font-size: 22px;
+      line-height: 30px;
+      color: #121212;
+    }
+  
+    .view-more {
+      font-family: "Manrope", sans-serif;
+      display: inline-block;
+      padding: 20px 40px;
+      font-size: 16px;
+      line-height: 22px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #ad1818;
+    }
+  }
+/* .projects-list {
     margin-top: 30px;
 }
 
@@ -315,4 +427,4 @@ footer p {
     line-height: 27px;
     color: #FFFFFF;
     opacity: 0.5;
-}
+} */
