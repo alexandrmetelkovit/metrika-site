@@ -5,10 +5,9 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   margin: 0 auto;
-  min-width: 1400px;
+  width: 100%;
   font-weight: 400;
   background-color: #ffffff;
-  overflow-x: hidden;
 }
 
 h1,
