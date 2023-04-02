@@ -17,7 +17,7 @@ h2 {
     color: #121212;
   }
   
-  .view-more {
+  .view__more {
     font-family: "Manrope", sans-serif;
     display: inline-block;
     width: 255px;
@@ -43,7 +43,7 @@ h2 {
       line-height: 48px;
     }
   
-    .view-more {
+    .view__more {
       padding: 20px 40px;
       line-height: 27px;
     }
@@ -67,7 +67,7 @@ h2 {
       line-height: 30px;
     }
   
-    .view-more {
+    .view__more {
       width: 100%;
       padding: 14.5px 27px;
       font-size: 16px;

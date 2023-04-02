@@ -60,7 +60,7 @@
                     </div>
                 </div>
         </section>
-        </div>
+
         <section class="about-us" id="about-us">
             <div class="container">
                 <div class="about-us__inner">
@@ -72,7 +72,7 @@
                         для
                         каждого интерьера, вплоть до каждой детали — нацелены на результат.
                     </p>
-                    <a href="#" class="view-more">Посмотреть услуги</a>
+                    <a href="#" class="view__more">Посмотреть услуги</a>
                 </div>
             </div>
         </section>
@@ -80,7 +80,7 @@
             <div class="container">
                 <div class="projects__inner">
                     <h2>ПРОЕКТЫ</h2>
-                    <ul class="projects-list">
+                    <ul class="projects__list">
                         <li class="project">
                             <picture>
                                 <source media="(max-width: 500px)" srcset="./resources/projects/mobile_brown_bed.png" />
@@ -116,42 +116,51 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="services" id="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="services__inner">
                     <h2>УСЛУГИ</h2>
                     <ul class="services__list">
                         <li class="service">
-                            <img class="service__image"
-                             src="resources/services/pencil2.png"
-                              alt="карандаш на листке">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./resources/services/mobile_pencil.png">
+                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_pencil.png">
+                                <img class="service__image" src="resources/services/pencil2.png"
+                                    alt="карандаш на листке">
+                            </picture>
                             <h3>Планировочное решение</h3>
                         </li>
                         <li class="service">
-                            <img 
-                            class="service__image" 
-                            src="resources/services/color2.png"
-                                alt="цветной справочник pantone">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./resources/services/mobile_color.png">
+                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_color.png">
+                                <img class="service__image" src="resources/services/color2.png"
+                                    alt="цветной справочник pantone">
+                            </picture>
                             <h3>Дизайн-проект</h3>
                         </li>
                         <li class="service">
-                            <img class="service__image" 
-                            src="resources/services/ruler2.png"
-                             alt="линейка на столе">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./resources/services/mobile_ruler.png">
+                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_ruler.png">
+                                <img class="service__image" src="resources/services/ruler2.png" alt="линейка на столе">
+                            </picture>
                             <h3>Авторский надзор</h3>
                         </li>
                         <li class="service">
-                            <img 
-                            class="service__image" 
-                            src="resources/services/stock2.png" 
-                            alt="складское помещение">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="./resources/services/mobile_stock.png">
+                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_stock.png">
+                                <img class="service__image" src="resources/services/stock2.png"
+                                    alt="складское помещение">
+                            </picture>
                             <h3>Комплектация</h3>
                         </li>
                     </ul>
+                    <a class="servicebtn" href="#">Заказать услугу</a>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- <section class="fullscreen">
             <div class="fullscreen-center">
                 <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>

@@ -3,11 +3,6 @@
   background-color: #121212;
 }
 
-.container {
-  width: 1150px;
-  margin: 0 auto;
-}
-
 .services__inner {
   padding-top: 151px;
   padding-bottom: 150px;
@@ -18,24 +13,37 @@
 }
 
 .services__list {
+  margin-bottom: 106px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.service {
-  margin-bottom: 85px;
+  row-gap: 85px;
 }
 
 .service__image {
-  margin-bottom: 25px;
-  max-width: 570px;
+  width: 100%;
   height: 389px;
+  margin-bottom: 25px;
 }
 
 .service h3 {
   font-size: 30px;
   line-height: 41px;
+  color: #ffffff;
+}
+
+.servicebtn {
+  display: block;
+  width: 100%;
+  padding: 56px 0;
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: -0.03em;
+  background-color: #ad1818;
   color: #ffffff;
 }
 

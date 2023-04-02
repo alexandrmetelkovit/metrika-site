@@ -6,6 +6,10 @@
   margin-bottom: 30px;
 }
 
+.projects__list {
+  margin-bottom: 90px;
+}
+
 .project {
   margin-bottom: 90px;
 }
@@ -34,9 +38,9 @@
   display: block;
   width: 100%;
   padding: 56px 0;
-  font-weight: 400;
   font-size: 30px;
   line-height: 41px;
+  font-weight: 400;
   border: 1px solid #ad1818;
   border-radius: 5px;
   text-align: center;
@@ -58,6 +62,10 @@
   .projects__inner h2 {
     margin-bottom: 30px;
   }
+
+  .project__list {
+    margin-bottom: 102px;
+  }          
 
   .project {
     margin-bottom: 80px;
@@ -83,7 +91,6 @@
   }
 
   .projectbtn {
-    margin-top: 102px;
     width: 100%;
   }
 }
@@ -120,7 +127,6 @@
   }
 
   .projectbtn {
-    margin-top: 60px;
     padding: 37px 0;
     font-size: 22px;
     line-height: 30px;
