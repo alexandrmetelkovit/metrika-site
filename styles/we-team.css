@@ -1,3 +1,7 @@
+.we-team {
+  margin-bottom: 150px;
+}
+
 .container {
     width: 1150px;
     margin: 0 auto;
@@ -13,7 +17,6 @@
   
   .interior {
     position: relative;
-    margin-bottom: 150px;
     max-width: 1150px;
     height: 500px;
     background-image: url("../resources/we-team/chair.png");
