@@ -1,10 +1,10 @@
-@import url('/styles/header.css');
-@import url('/styles/we-team.css');
-@import url('/styles/about-us.css');
-@import url('/styles/projects.css');
-@import url('/styles/services.css');
-@import url('/styles/slider.css');
-@import url('/styles/contacts.css');
+@import url("/styles/header.css");
+@import url("/styles/we-team.css");
+@import url("/styles/about-us.css");
+@import url("/styles/projects.css");
+@import url("/styles/services.css");
+@import url("/styles/slider.css");
+@import url("/styles/contacts.css");
 
 html {
   scroll-behavior: smooth;
@@ -28,8 +28,6 @@ ul,
 li {
   letter-spacing: -0.03em;
 }
-
-
 
 /* footer {
   width: 100%;
