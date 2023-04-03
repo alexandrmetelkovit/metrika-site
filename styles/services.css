@@ -10,10 +10,6 @@
   padding-bottom: 150px;
 }
 
-.services__inner h2 {
-  color: #ffffff;
-}
-
 .services__list {
   display: flex;
   flex-wrap: wrap;
@@ -23,11 +19,14 @@
 }
 
 .service {
+  position: relative;
   width: calc(50% - 5px);
 }
 
 .service__image {
   height: 389px;
+  object-fit: cover;
+  margin-bottom: 25px;
 }
 
 .service h3 {
@@ -36,16 +35,16 @@
   color: #ffffff;
 }
 
-.label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 163px;
-  height: 40px;
+.service__price {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  padding: 5px 22px;
   font-size: 22px;
-line-height: 30px;
-color: #FFFFFF;
-  background-color: #AD1818;
+  line-height: 30px;
+  background-color: #ad1818;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 .servicebtn {
@@ -65,12 +64,8 @@ color: #FFFFFF;
 
 @media (max-width: 1199px) {
   .services {
-    margin-bottom: 117px;
-  }
-
-  .services__inner {
-    padding-top: 151px;
     padding-bottom: 120px;
+    margin-bottom: 117px;
   }
 
   .services__list {
@@ -89,8 +84,8 @@ color: #FFFFFF;
     line-height: 34px;
   }
 
-  .service p {
-    padding: 7px 26px;
+  .service__price {
+    padding: 6px 26px;
     font-size: 20px;
     line-height: 27px;
   }
@@ -98,12 +93,9 @@ color: #FFFFFF;
 
 @media (max-width: 767px) {
   .services {
-    margin-bottom: 80px;
-  }
-
-  .services__inner {
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 
   .services__list {
@@ -125,8 +117,10 @@ color: #FFFFFF;
     line-height: 25px;
   }
 
-  .service p {
-    padding: 5px 24px;
+  .service__price {
+    padding: 6px 26px;
+    left: 24px;
+    top: 23px;
     font-size: 14px;
     line-height: 19px;
   }

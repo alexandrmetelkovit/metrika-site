@@ -6,6 +6,7 @@
 @import url("/styles/services.css");
 @import url("/styles/slider.css");
 @import url("/styles/contacts.css");
+@import url("/styles/footer.css");
 
 html {
   scroll-behavior: smooth;
@@ -29,40 +30,3 @@ ul,
 li {
   letter-spacing: -0.03em;
 }
-
-/* footer {
-  width: 100%;
-  margin-top: 9px;
-  height: 229px;
-  background-color: #121212;
-}
-
-.footernav {
-  width: 450px;
-  margin: auto;
-  padding: 60px 0 87px 0;
-}
-
-.footernav__link {
-  margin-left: 50px;
-  font-size: 18px;
-  line-height: 25px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footernav__link:first-child {
-  margin: 0;
-}
-
-.footernav__link:hover {
-  opacity: 0.5;
-}
-
-footer p {
-  text-align: center;
-  font-size: 20px;
-  line-height: 27px;
-  color: #ffffff;
-  opacity: 0.5;
-} */

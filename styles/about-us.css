@@ -35,11 +35,6 @@
     font-size: 35px;
     line-height: 48px;
   }
-
-  .view__more {
-    padding: 20px 40px;
-    line-height: 27px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -48,7 +43,6 @@
   }
 
   .about-us__inner p {
-    margin-bottom: 29px;
     width: 100%;
     font-size: 22px;
     line-height: 30px;
