@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/title.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/we-team.css" />
     <link rel="stylesheet" href="styles/about-us.css" />
@@ -50,7 +51,7 @@
         <section class="we-team">
             <div class="container">
                 <div class="we-team__inner">
-                    <h1 class="title">
+                    <h1 class="description__title">
                         Современные и стильные интерьеры для комфортной жизни
                     </h1>
                     <div class="interior">
@@ -65,7 +66,7 @@
         <section class="about-us" id="about-us">
             <div class="container">
                 <div class="about-us__inner">
-                    <h2>О НАС</h2>
+                    <h2 class="title">О НАС</h2>
                     <p>
                         Студия основана в 2011 году. Полностью отдаемся проектированию и
                         реализации интерьеров. К нам обращаются за уютом, индивидуальными
@@ -80,7 +81,7 @@
         <section class="projects" id="projects">
             <div class="container">
                 <div class="projects__inner">
-                    <h2>ПРОЕКТЫ</h2>
+                    <h2 class="title">ПРОЕКТЫ</h2>
                     <ul class="projects__list">
                         <li class="project">
                             <picture>
@@ -124,52 +125,43 @@
         </section>
         <section class="services" id="services">
             <div class="container">
-                <div class="services__inner">
-                    <h2>УСЛУГИ</h2>
-                    <ul class="services__list">
-                        <li class="service">
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="./resources/services/mobile_pencil.png" />
-                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_pencil.png" />
-                                <img class="service__image" src="resources/services/pencil2.png"
-                                    alt="карандаш на листке" />
-                            </picture>
-                            <h3>Планировочное решение</h3>
-                            <p>от 2500₽/м²</p>
-                        </li>
-                        <li class="service">
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="./resources/services/mobile_color.png" />
-                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_color.png" />
-                                <img class="service__image" src="resources/services/color2.png"
-                                    alt="цветной справочник pantone" />
-                            </picture>
-                            <h3>Дизайн-проект</h3>
-                            <p>от 3000₽/м²</p>
-                        </li>
-                        <li class="service">
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="./resources/services/mobile_ruler.png" />
-                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_ruler.png" />
-                                <img class="service__image" src="resources/services/ruler2.png"
-                                    alt="линейка на столе" />
-                            </picture>
-                            <h3>Авторский надзор</h3>
-                            <p>от 30 000₽/мес</p>
-                        </li>
-                        <li class="service">
-                            <picture>
-                                <source media="(max-width: 500px)" srcset="./resources/services/mobile_stock.png" />
-                                <source media="(max-width: 1199px)" srcset="./resources/services/tablet_stock.png" />
-                                <img class="service__image" src="resources/services/stock2.png"
-                                    alt="складское помещение" />
-                            </picture>
-                            <h3>Комплектация</h3>
-                            <p>5% от стоимости</p>
-                        </li>
-                    </ul>
-                    <a class="servicebtn" href="#">Заказать услугу</a>
-                </div>
+                <h2 class="title title_white">УСЛУГИ</h2>
+                <ul class="services__list">
+                    <li class="service">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="./resources/services/mobile_pencil.png" />
+                            <source media="(max-width: 1199px)" srcset="./resources/services/tablet_pencil.png" />
+                            <img class="service__image" src="resources/services/pencil2.png" alt="карандаш на листке" />
+                        </picture>
+                        <h3>Планировочное решение</h3>
+                    </li>
+                    <li class="service">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="./resources/services/mobile_color.png" />
+                            <source media="(max-width: 1199px)" srcset="./resources/services/tablet_color.png" />
+                            <img class="service__image" src="resources/services/color2.png"
+                                alt="цветной справочник pantone" />
+                        </picture>
+                        <h3>Дизайн-проект</h3>
+                    </li>
+                    <li class="service">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="./resources/services/mobile_ruler.png" />
+                            <source media="(max-width: 1199px)" srcset="./resources/services/tablet_ruler.png" />
+                            <img class="service__image" src="resources/services/ruler2.png" alt="линейка на столе" />
+                        </picture>
+                        <h3>Авторский надзор</h3>
+                    </li>
+                    <li class="service">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="./resources/services/mobile_stock.png" />
+                            <source media="(max-width: 1199px)" srcset="./resources/services/tablet_stock.png" />
+                            <img class="service__image" src="resources/services/stock2.png" alt="складское помещение" />
+                        </picture>
+                        <h3>Комплектация</h3>
+                    </li>
+                </ul>
+                <a class="servicebtn" href="#">Заказать услугу</a>
             </div>
         </section>
         <!-- <section class="fullscreen">

@@ -1,6 +1,7 @@
 .services {
   width: 100%;
   background-color: #121212;
+  padding: 150px 0;
   margin-bottom: 150px;
 }
 
@@ -22,13 +23,11 @@
 }
 
 .service {
-  position: relative;
   width: calc(50% - 5px);
 }
 
 .service__image {
   height: 389px;
-  margin-bottom: 25px;
 }
 
 .service h3 {
@@ -37,16 +36,16 @@
   color: #ffffff;
 }
 
-.service p {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  padding: 5px 20px;
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 163px;
+  height: 40px;
   font-size: 22px;
-  line-height: 30px;
-  color: #ffffff;
-  background-color: #ad1818;
-  border-radius: 5px;
+line-height: 30px;
+color: #FFFFFF;
+  background-color: #AD1818;
 }
 
 .servicebtn {
@@ -72,10 +71,6 @@
   .services__inner {
     padding-top: 151px;
     padding-bottom: 120px;
-  }
-
-  .services__inner h2 {
-    color: #ffffff;
   }
 
   .services__list {
@@ -109,11 +104,6 @@
   .services__inner {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  .services__inner h2 {
-    font-size: 14px;
-    line-height: 19px;
   }
 
   .services__list {

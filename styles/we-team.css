@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.title {
+.description__title {
   margin: 70px 0 30px 0;
   max-width: 956px;
   font-size: 60px;
@@ -46,7 +46,7 @@
     padding-right: 17px;
   }
 
-  .title {
+  .description__title {
     margin: 73px 0 30px 0;
     max-width: 802px;
     font-size: 50px;
@@ -74,7 +74,7 @@
     padding-right: 13px;
   }
 
-  .title {
+  .description__title {
     margin: 61px 0 25px 0;
     max-width: 348px;
     font-size: 31px;

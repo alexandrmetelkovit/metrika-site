@@ -2,13 +2,6 @@
   margin-bottom: 150px;
 }
 
-h2 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
-  color: #121212;
-}
-
 .about-us__inner p {
   margin-bottom: 29px;
   width: 1048px;
@@ -52,12 +45,6 @@ h2 {
 @media (max-width: 767px) {
   .about-us {
     margin-bottom: 80px;
-  }
-
-  h2 {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 19px;
   }
 
   .about-us__inner p {
