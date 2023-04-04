@@ -1,0 +1,32 @@
+.reviews {
+  margin-bottom: 157px;
+}
+.reviews__inner {
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 528px;
+}
+
+.review {
+  width: 100%;
+  height: 360px;
+  border: 1px solid red;
+}
+
+.review__title {
+  font-size: 45px;
+  line-height: 61px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.review__text {
+  font-size: 22px;
+  line-height: 30px;
+}
