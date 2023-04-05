@@ -21,6 +21,26 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
 h1,
 h2,
 h3,
