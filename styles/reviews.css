@@ -24,7 +24,7 @@
   margin-bottom: 14px;
 }
 
-.review__text {
+.review__desc {
   font-size: 22px;
   line-height: 30px;
 }
@@ -52,7 +52,7 @@
     margin-bottom: 25px;
   }
 
-  .review__text {
+  .review__desc {
     font-size: 20px;
     line-height: 27px;
   }
@@ -82,7 +82,7 @@
     margin-bottom: 10px;
   }
 
-  .review__text {
+  .review__desc {
     font-size: 16px;
     line-height: 22px;
   }
