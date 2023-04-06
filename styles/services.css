@@ -47,20 +47,7 @@
   color: #ffffff;
 }
 
-.servicebtn {
-  display: block;
-  width: 100%;
-  padding: 56px 0;
-  font-size: 30px;
-  line-height: 41px;
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  letter-spacing: -0.03em;
-  background-color: #ad1818;
-  color: #ffffff;
-}
+
 
 @media (max-width: 1199px) {
   .services {
@@ -123,11 +110,5 @@
     top: 23px;
     font-size: 14px;
     line-height: 19px;
-  }
-
-  .servicebtn {
-    padding: 37px 0;
-    font-size: 22px;
-    line-height: 30px;
   }
 }

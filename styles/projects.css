@@ -30,27 +30,6 @@
   color: #ad1818;
 }
 
-.projectbtn {
-  display: block;
-  width: 100%;
-  padding: 56px 0;
-  font-size: 30px;
-  line-height: 41px;
-  font-weight: 400;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: -0.03em;
-  color: #ad1818;
-  background: #ffffff;
-}
-
-.projectbtn:hover {
-  background-color: #ad1818;
-  color: #ffffff;
-}
-
 @media (max-width: 1199px) {
   .projects {
     margin-bottom: 103px;
@@ -74,10 +53,6 @@
     margin-bottom: 10px;
     font-size: 25px;
     line-height: 34px;
-  }
-
-  .projectbtn {
-    width: 100%;
   }
 }
 
@@ -104,11 +79,5 @@
   .project__link {
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .projectbtn {
-    padding: 37px 0;
-    font-size: 22px;
-    line-height: 30px;
   }
 }
