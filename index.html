@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="styles/projects.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
-    <link rel="stylesheet" href="styles/slider.css" />
+    <link rel="stylesheet" href="styles/gallery.css" />
     <link rel="stylesheet" href="styles/contacts.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/buttons.css" />
@@ -183,7 +183,7 @@
                             Спасибо за Ваше умение правильно слышать пожелания своих
                             клиентов и выполнять работу, которая превосходит все ожидания!
                             Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно
-                            разместить все, что мы хотим и даже больше! <br /><br>
+                            разместить все, что мы хотим и даже больше! <br /><br />
                             Вам удалось это просто превосходно! Нам лишь осталось воплотить
                             красоту, которую Вы нам создали в жизнь и поделиться с Вами
                             результатом!
@@ -196,7 +196,7 @@
                             продумано! Очень приятно было с вами работать! Спасибо, что
                             терпели наши «хочу это, хочу то» в поисках идеального для нас
                             ремонта. Здорово, что мы нашли такого основательного,
-                            ответственного и внимательного к деталям дизайнера! <br /><br>
+                            ответственного и внимательного к деталям дизайнера! <br /><br />
                             Хочется скорее реализовать проект и наслаждаться современной,
                             функциональной и красивой квартирой! Будем рекомендовать Вас
                             всем друзьям и знакомым!
@@ -205,24 +205,72 @@
                     <li class="review review_big">
                         <p class="review__title">Яна, проект 120 кв.м.</p>
                         <p class="review__desc">
-                            Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила
-                            разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять
-                            качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно,
-                            всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой
-                            способ решения будет более подходящим. <br><br>
-                            В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его
-                            реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому
-                            еще предстоит это непростое дело - ремонт!
+                            Хотелось бы сказать большое спасибо за проделанную работу! В
+                            задачу Марины входила разработка дизайн-проекта в минимальные
+                            сроки, и мне, конечно, не хотелось при этом потерять качество
+                            выполнения работы. Но волнения были напрасны: все вопросы
+                            решались оперативно, всегда предлагалось несколько вариантов
+                            решения, а также предоставлялись комментарии, какой способ
+                            решения будет более подходящим. <br /><br />
+                            В итоге проект был сдан в оговоренный срок, и мне просто не
+                            терпится приступить к его реализации! Проект получился очень
+                            стильным и современным! Буду рекомендовать Вас тем, кому еще
+                            предстоит это непростое дело - ремонт!
                         </p>
                     </li>
                 </ul>
             </div>
         </section>
-        <!-- <section class="fullscreen">
-            <div class="fullscreen-center">
-                <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery__title-wrapper">
+                    <h2 class="gallery__title">галерея проектов</h2>
+                </div>
             </div>
-        </section> -->
+            <div class="gallery__slides">
+                <div class="gallery__slide gallery__slide_active">
+                    <img class="gallery__img" src="./resources/gallery-section/forest landscape.png"
+                        alt="Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж" />
+                    <p class="gallery__desc-text">
+                        Проект Двухкомнтаной<br />
+                        квартиры в ЖК Лесной Пейзаж
+                    </p>
+                </div>
+                <div class="gallery__slide">
+                    <img class="gallery__img" src="./resources/gallery-section/mayak.png"
+                        alt="Проект гостиной в ЖК Маяк" />
+                    <p class="gallery__desc-text">Проект гостиной в ЖК Маяк</p>
+                </div>
+                <div class="gallery__slide">
+                    <img class="gallery__img" src="./resources/gallery-section/kitchen-living room.png"
+                        alt="Визуализация кухни-гостиной в частном доме" />
+                    <p class="gallery__desc-text">
+                        Визуализация кухни-гостиной<br />
+                        в частном доме
+                    </p>
+                </div>
+                <div class="gallery__slide">
+                    <img class="gallery__img" src="./resources/gallery-section/North wind.png"
+                        alt="Проект кухни в скандинавском стиле для ЖК Северный Ветер" />
+                    <p class="gallery__desc-text">
+                        Проект кухни в скандинавско<br />
+                        стиле для ЖК Северный Ветер
+                    </p>
+                </div>
+            </div>
+            <div class="gallery__controls-wrapper">
+                <div class="container">
+                    <div class="gallery__controls">
+                        <button class="gallery__control-prev">
+                            <img src="./resources/gallery-section/prev_next/prev.png" alt="предыдущая" />
+                        </button>
+                        <button class="gallery__control-next">
+                            <img src="./resources/gallery-section/prev_next/next.png" alt="следующая" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- <section class="contacts">
             <div class="container">
                 <div class="contacts__inner">
@@ -242,6 +290,7 @@
         </nav>
         <p>студия дизайна интерьера Метрика — 2023</p>
     </footer> -->
+    <script src="gallery.js"></script>
 </body>
 
 </html>
