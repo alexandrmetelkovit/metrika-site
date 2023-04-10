@@ -108,8 +108,7 @@
 
   .contacts__tel::before {
     top: -21px;
-    width: 9.75px;
-    height: 16.5px;
+
   }
 
   .contacts__email {
@@ -120,7 +119,6 @@
 
   .contacts__mail::before {
     top: -23px;
-    width: 15px;
-    height: 12px;
+
   }
 }
