@@ -17,6 +17,7 @@
 .contacts__tel {
   position: relative;
   display: block;
+  width: 100%;
 }
 
 .contacts__telephone {
@@ -41,6 +42,7 @@
 .contacts__mail {
   position: relative;
   display: block;
+  width: 100%;
 }
 
 .contacts__email {
@@ -70,6 +72,7 @@
   }
 
   .contacts__inner {
+    flex-direction: column;
     gap: 114px;
   }
 
@@ -88,7 +91,6 @@
   }
 
   .contacts__inner {
-    flex-wrap: wrap;
     gap: 58px;
   }
 
@@ -110,13 +112,10 @@
     height: 16.5px;
   }
 
-  .contacts__mail {
-    border: none;
-  }
-
   .contacts__email {
     font-size: 35px;
     line-height: 46px;
+    border: none;
   }
 
   .contacts__mail::before {
