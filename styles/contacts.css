@@ -14,31 +14,37 @@
   color: #121212;
 }
 
-.contacts__telephone {
+.contacts__tel {
   position: relative;
   display: block;
+}
+
+.contacts__telephone {
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
 }
 
-.contacts__telephone::before {
+.contacts__tel::before {
   content: "";
   display: block;
   position: absolute;
-  top: -37px;
-  background-image: url("../resources/arrow.png");
-  width: 24px;
-  height: 24px;
+  top: -27px;
+  background-image: url("../resources/mobile.png");
+  width: 13px;
+  height: 22px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
 
+.contacts__mail {
+  position: relative;
+  display: block;
+  border-bottom: 2px solid #121212;
 }
 
 .contacts__email {
-  position: relative;
-  display: block;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
@@ -46,19 +52,76 @@
   opacity: 0.5;
 }
 
-.contacts__email::before {
+.contacts__mail::before {
   content: "";
   display: block;
   position: absolute;
-  top: -37px;
+  top: -19px;
   background-image: url("../resources/mail.png");
   width: 20px;
   height: 16px;
   background-repeat: no-repeat;
-  background-size: cover;
-
+  background-size: contain;
 }
 
-.contacts__email:hover {
-  opacity: 0.5;
+@media (max-width: 1199px) {
+  .contacts {
+    margin-bottom: 150px;
+  }
+
+  .contacts__inner {
+    gap: 114px;
+  }
+
+  .contacts__telephone {
+    font-size: 45px;
+  }
+
+  .contacts__email {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 150px;
+  }
+
+  .contacts__inner {
+    flex-wrap: wrap;
+    gap: 58px;
+  }
+
+  .contacts__title {
+    margin-bottom: 74px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #121212;
+  }
+
+  .contacts__telephone {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .contacts__tel::before {
+    top: -21px;
+    width: 9.75px;
+    height: 16.5px;
+  }
+
+  .contacts__mail {
+    border: none;
+  }
+
+  .contacts__email {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .contacts__mail::before {
+    top: -23px;
+    width: 15px;
+    height: 12px;
+  }
 }
