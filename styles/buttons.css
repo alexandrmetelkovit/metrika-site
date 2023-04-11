@@ -13,6 +13,7 @@
     color: #ad1818;
     background: #ffffff;
     transition: 0.5s;
+    cursor: pointer;
   }
   
   .fullwidthbtn:hover {
