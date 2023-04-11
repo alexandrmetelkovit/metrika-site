@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="styles/about-us.css" />
     <link rel="stylesheet" href="styles/projects.css" />
     <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/popup.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
     <link rel="stylesheet" href="styles/gallery.css" />
     <link rel="stylesheet" href="styles/contacts.css" />
@@ -168,7 +169,17 @@
                         <p class="service__price">5% от стоимости</p>
                     </li>
                 </ul>
-                <a class="fullwidthbtn fullwidthbtn_inverted" href="#">Заказать услугу</a>
+                <a class="js-btn fullwidthbtn fullwidthbtn_inverted" href="#">Заказать услугу</a>
+
+                <div class="js-popup popup">
+                    <div class="popup__content">
+                        <p class="popup__title">Заказать услугу</p>
+                        <p class="popup_desc">Заполните форму, мы свяжемся с вами в течение суток
+                        </p>
+
+                        <div class="js-popup__close-btn popup__close-btn"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="reviews">
@@ -312,6 +323,7 @@
         </div>
         <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
     </footer>
+    <script src="popup.js"></script>
     <script src="gallery.js"></script>
 </body>
 
