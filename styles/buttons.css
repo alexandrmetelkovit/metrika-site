@@ -31,6 +31,8 @@
     color: #ad1818;
   }
 
+  
+
   @media (max-width: 1199px) {
     .fullwidthbtn {
         width: 100%;
