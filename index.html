@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="styles/projects.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/input.css" />
     <link rel="stylesheet" href="styles/reviews.css" />
     <link rel="stylesheet" href="styles/gallery.css" />
     <link rel="stylesheet" href="styles/contacts.css" />
@@ -37,7 +38,7 @@
     <link rel="stylesheet" href="styles/buttons.css" />
 </head>
 
-<body class="body">
+<body>
     <!-- <header>
         <div class="nav-container">
             <a class="logo-link" href="#">
@@ -169,13 +170,19 @@
                         <p class="service__price">5% от стоимости</p>
                     </li>
                 </ul>
-                <button class="js-btn fullwidthbtn fullwidthbtn_inverted">Заказать услугу</button>
+                <button class="js-btn fullwidthbtn fullwidthbtn_inverted">
+                    Заказать услугу
+                </button>
 
                 <div class="js-popup popup">
                     <div class="js-popup__content popup__content">
                         <p class="popup__title">Заказать услугу</p>
-                        <p class="popup_desc">Заполните форму, мы свяжемся с вами в течение суток
+                        <p class="popup_desc">
+                            Заполните форму, мы свяжемся с вами в течение суток
                         </p>
+                        <input class="input" type="text" placeholder="Имя" />
+                        <input class="input" type="text" placeholder="Электронная почта" />
+                        <input class="input" type="text" placeholder="Номер телефона" />
 
                         <button class="send__btn">Отправить</button>
 
