@@ -1,4 +1,4 @@
-@import url("/styles/header.css");
+@import url("/styles/burger.css");
 @import url("/styles/title.css");
 @import url("/styles/we-team.css");
 @import url("/styles/about-us.css");
@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.body {
+body{
   font-family: "Manrope", sans-serif;
   margin: 0 auto;
   max-width: 100%;

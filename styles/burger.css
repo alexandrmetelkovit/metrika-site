@@ -1,0 +1,30 @@
+
+.header__nav-inner {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  margin: 33px 0 70px 0;
+}
+
+.logo {
+  display: block;
+  cursor: pointer;
+}
+
+.header__nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #000000;
+}

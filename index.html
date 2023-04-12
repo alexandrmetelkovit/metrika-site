@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/title.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/burger.css" />
     <link rel="stylesheet" href="styles/we-team.css" />
     <link rel="stylesheet" href="styles/about-us.css" />
     <link rel="stylesheet" href="styles/projects.css" />
@@ -39,19 +39,23 @@
 </head>
 
 <body>
-    <!-- <header>
-        <div class="nav-container">
-            <a class="logo-link" href="#">
-                <img class="logo" src="./resources/logo_metrika.png" alt="логотип компании метрика">
-            </a>
-            <nav class="nav">
-                <a href="#about-us" class="nav-link">О НАС</a>
-                <a href="#projects" class="nav-link">ПРОЕКТЫ </a>
-                <a href="#services" class="nav-link">УСЛУГИ</a>
-                <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
-            </nav>
+    <header>
+        <div class="container">
+            <div class="header__nav-inner">
+                <div class="logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="./resources/logo_metrika.png" alt="логотип компании метрика" />
+                    </a>
+                </div>
+                <nav class="header__nav-links">
+                    <a class="nav-link" href="#about-us">О НАС</a>
+                    <a class="nav-link" href="#projects">ПРОЕКТЫ </a>
+                    <a class="nav-link" href="#services">УСЛУГИ</a>
+                    <a class="nav-link" href="#contacts">КОНТАКТЫ</a>
+                </nav>
+            </div>
         </div>
-    </header> -->
+    </header>
     <main>
         <section class="we-team">
             <div class="container">
@@ -128,9 +132,9 @@
                 </div>
             </div>
         </section>
-        <section class="services" id="services">
+        <section class="services">
             <div class="container">
-                <h2 class="title title_white">УСЛУГИ</h2>
+                <h2 class="title title_white" id="services">УСЛУГИ</h2>
                 <ul class="services__list">
                     <li class="service">
                         <picture>

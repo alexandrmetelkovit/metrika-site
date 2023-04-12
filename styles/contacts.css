@@ -83,7 +83,7 @@
 
 @media (max-width: 767px) {
   .contacts {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
 
   .contacts__inner {
@@ -91,7 +91,7 @@
   }
 
   .contacts__title {
-    margin-bottom: 74px;
+    margin-bottom: 58px;
     font-size: 14px;
     line-height: 19px;
     color: #121212;
@@ -102,19 +102,22 @@
     line-height: 46px;
   }
 
-  .contacts__tel::before {
-    top: -21px;
-
+  .contacts__tel:before {
+    width: 9.75px;
+    height: 16.5px;
+    top: -40px;
   }
 
   .contacts__email {
     font-size: 35px;
     line-height: 46px;
+    opacity: 1;
     border: none;
   }
 
-  .contacts__mail::before {
-    top: -23px;
-
+  .contacts__mail:before {
+    width: 15px;
+    height: 12px;
+    top: -40px;
   }
 }
