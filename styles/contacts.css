@@ -54,6 +54,10 @@
   line-height: 60px;
   text-decoration: none;
   color: #121212;
+}
+
+.contacts__email:hover {
+  transition: 0.5s;
   border-bottom: 2px solid #121212;
   opacity: 0.5;
 }
@@ -68,7 +72,7 @@
   }
 
   .contacts__inner {
-    flex-direction: column;
+
     gap: 114px;
   }
 
@@ -87,6 +91,7 @@
   }
 
   .contacts__inner {
+    flex-direction: column;
     gap: 58px;
   }
 
