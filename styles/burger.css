@@ -1,5 +1,3 @@
-
-
 header {
   margin: 33px 0 70px 0;
 }
@@ -87,9 +85,9 @@ header {
 
 .burger__title {
   font-size: 16px;
-line-height: 22px;
-color: #000000;
-opacity: 0.5;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.5;
 }
 
 .burger__contacts__inner {
@@ -100,16 +98,16 @@ opacity: 0.5;
 
 .burger__contacts__telephone {
   font-size: 20px;
-line-height: 46px;
-color: #121212;
-text-decoration: none;
+  line-height: 46px;
+  color: #121212;
+  text-decoration: none;
 }
 
 .burger__contacts__email {
   font-size: 20px;
-line-height: 60px;
-color: #121212;
-text-decoration: none;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
 }
 
 @media (max-width: 1199px) {
@@ -121,7 +119,7 @@ text-decoration: none;
     display: block;
     position: relative;
     width: 50px;
-    height: 10px;
+    height: 40px;
     z-index: 4;
   }
 
@@ -146,13 +144,12 @@ text-decoration: none;
   }
 
   .burger-btn_open::before {
-    display: block;
+    width: 50px;
     transition: 0.5s;
     transform: translateX(-2px) translateY(19px) rotate(43deg);
   }
 
   .burger-btn_open::after {
-    display: block;
     width: 50px;
     transition: 0.5s;
     transform: translateX(-3px) translateY(13px) rotate(137deg);
@@ -160,5 +157,4 @@ text-decoration: none;
 }
 
 @media (max-width: 767px) {
-
 }
