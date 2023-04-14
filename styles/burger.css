@@ -157,4 +157,26 @@ header {
 }
 
 @media (max-width: 767px) {
+
+  .burger__nav-links {
+    gap: 10px;
+    margin: 40px 0 70px 0;
+  }
+
+  .burger__nav-link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .burger-btn_open::before {
+    width: 30px;
+    transition: 0.5s;
+    transform: translateX(-2px) translateY(19px) rotate(43deg);
+  }
+
+  .burger-btn_open::after {
+    width: 30px;
+    transition: 0.5s;
+    transform: translateX(-3px) translateY(13px) rotate(137deg);
+  }
 }

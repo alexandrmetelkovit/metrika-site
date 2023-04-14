@@ -31,8 +31,19 @@
     color: #ad1818;
   }
 
+  .fullwidthbtn_small {
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    background-color: #ad1818;
+  }
   
-
+  .fullwidthbtn_small:hover {
+    background-color: #ffffff;
+    color: #ad1818;
+  }
+  
   @media (max-width: 1199px) {
     .fullwidthbtn {
         width: 100%;
@@ -45,4 +56,6 @@
         font-size: 22px;
         line-height: 30px;
       }
+
+
   }
