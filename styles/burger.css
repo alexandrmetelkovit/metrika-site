@@ -64,9 +64,14 @@ header {
 .burger__content {
   width: 274px;
   height: 100%;
-  background-color: white;
+  overflow-y: auto;
   padding: 80px;
   padding-left: 30px;
+  background-color: white;
+}
+
+.burger-logo {
+  width: 156px;
 }
 
 .burger__nav-links {

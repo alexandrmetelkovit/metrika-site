@@ -47,18 +47,18 @@
                         <img class="logo__img" src="./resources/logo_metrika.png" alt="логотип компании метрика" />
                     </a>
                 </div>
-                <nav class="header__nav-links">
-                    <a class="nav-link" href="#about-us">О НАС</a>
-                    <a class="nav-link" href="#projects">ПРОЕКТЫ </a>
-                    <a class="nav-link" href="#services">УСЛУГИ</a>
-                    <a class="nav-link" href="#contacts">КОНТАКТЫ</a>
-                </nav>
+                <ul class="header__nav-links">
+                    <li><a class="nav-link" href="#about-us">О НАС</a></li>
+                    <li><a class="nav-link" href="#projects">ПРОЕКТЫ </a></li>
+                    <li><a class="nav-link" href="#services">УСЛУГИ</a></li>
+                    <li><a class="nav-link" href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
                 <div class="js-burger-btn burger-btn"></div>
             </div>
         </div>
     </header>
     <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class=" burger__content">
             <div class="burger-logo">
                 <a class="burger-logo__link" href="#">
                     <img class="burger-logo__img" src="./resources/logo_metrika.png" alt="логотип компании метрика" />
@@ -71,7 +71,7 @@
                 <a class="burger__nav-link" href="#contacts">КОНТАКТЫ</a>
             </nav>
             <p class="burger__title">для связи:</p>
-            <ul class="burger__contacts__inner">
+            <ul class="burger__contacts__inner js-burger__content">
                 <li class="burger__contacts__tel">
                     <a class="burger__contacts__telephone" href="tel:+79358954535">+7 935 895-45-35</a>
                 </li>
@@ -213,7 +213,9 @@
                         <input class="input" type="email" placeholder="Электронная почта" />
                         <input class="input" type="tel" placeholder="Номер телефона" />
 
-                        <button class="fullwidthbtn fullwidthbtn_inverted fullwidthbtn_small">Отправить</button>
+                        <button class="fullwidthbtn fullwidthbtn_inverted fullwidthbtn_small">
+                            Отправить
+                        </button>
 
                         <div class="js-popup__close-btn popup__close-btn"></div>
                     </div>
