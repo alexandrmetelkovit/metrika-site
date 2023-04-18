@@ -53,7 +53,7 @@
 @media (max-width: 767px) {
   .full-width-btn {
     font-size: 22px;
-    line-height: 30px;
+    line-height: 100px;
   }
 
   .full-width-btn_small {
