@@ -1,13 +1,11 @@
 .input {
   display: block;
-  margin-bottom: 50px;
-  width: 643px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   font-size: 25px;
   line-height: 34px;
-  padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid #000000;
-  color: #000000;
 }
 
 .input:focus {
@@ -18,15 +16,8 @@
   opacity: 0.5;
 }
 
-@media (max-width: 1199px) {
-.input {
-    width: 100%;
-}
-}
-
 @media (max-width: 767px) {
     .input {
-        margin-bottom: 40px;
         font-size: 18px;
         line-height: 25px;
       }
