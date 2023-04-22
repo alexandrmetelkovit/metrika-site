@@ -1,7 +1,3 @@
-.reviews {
-  margin-bottom: 150px;
-}
-
 .reviews__list {
   display: flex;
   flex-wrap: wrap;

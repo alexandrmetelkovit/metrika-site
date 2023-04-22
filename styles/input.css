@@ -17,8 +17,8 @@
 }
 
 @media (max-width: 767px) {
-    .input {
-        font-size: 18px;
-        line-height: 25px;
-      }
+  .input {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }

@@ -30,6 +30,10 @@ body{
   margin: 0 auto;
 }
 
+section {
+  margin-bottom: 150px;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
