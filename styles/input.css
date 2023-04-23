@@ -6,6 +6,7 @@
   line-height: 34px;
   border: none;
   border-bottom: 1px solid #000000;
+  border-radius: none;
 }
 
 .input:focus {

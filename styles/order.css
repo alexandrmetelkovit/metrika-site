@@ -2,10 +2,10 @@
   font-size: 45px;
   line-height: 61px;
   text-align: center;
+  margin-bottom: 4px;
 }
 
 .order__subtitle {
-  margin-top: 4px;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
