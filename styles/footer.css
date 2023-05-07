@@ -4,18 +4,14 @@ footer {
   background-color: #121212;
 }
 
-.footer__nav-links {
-  display: flex;
+.nav__theme-dark {
   justify-content: center;
   gap: 53px;
   margin-bottom: 87px;
 }
 
-.footer__nav-link {
-  font-size: 18px;
-  line-height: 25px;
+.nav__link-white {
   color: #fff;
-  text-decoration: none;
 }
 
 .footer__text {
@@ -30,19 +26,19 @@ footer {
   footer {
     padding: 30px 0 26px 0;
   }
-  
-  .footer__nav-links {
+
+  .nav__theme-dark {
     gap: 30px;
     margin-bottom: 41px;
   }
-  
-  .footer__nav-link {
+
+  .nav__link-white {
     font-size: 12px;
     line-height: 16px;
   }
-  
+
   .footer__text {
     font-size: 13px;
     line-height: 18px;
-}
+  }
 }
