@@ -26,6 +26,10 @@
   color: #ad1818;
 }
 
+.project__link:hover {
+  color: #900909;
+}
+
 @media (max-width: 1199px) {
   .projects {
     margin-bottom: 103px;
